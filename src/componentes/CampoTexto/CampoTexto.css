@@ -1,0 +1,26 @@
+.campo-texto {
+    margin: 24px 0; /*Define margem vertical de 24px (em cima e embaixo).
+     0 significa sem margem lateral (esquerda/direita).*/
+
+}
+
+.campo-texto label {
+    display: block; /*faz o <label> se comportar como um bloco, ocupando toda a largura.*/
+    margin-bottom: 8px; /*adiciona espaço abaixo do label.*/
+    font-size: 24px;/* define o tamanho da fonte do texto do label*/
+}
+
+.campo-texto input {
+    background-color: #FFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    /*Sombra
+    10px de deslocamento horizontal,
+    10px de deslocamento vertical,
+    30px de desfoque,
+    cor preta com 6% de opacidade.*/
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
