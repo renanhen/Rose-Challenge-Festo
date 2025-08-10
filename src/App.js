@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Banner from './componentes/Banner';
-import Formulario from './componentes/Formulario';
+import Formulario_v2 from './componentes/Formulario_v2';
 import Header from './componentes/Header';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Banner /> 
       <Header />
-      <Formulario aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicioando(colaborador)}/>
+      <Formulario_v2 aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicioando(colaborador)}/>
     </div>
   );
 }
